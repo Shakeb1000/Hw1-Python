@@ -2,27 +2,35 @@
 # Collaborator:
 grade1 = input("Enter your course 1 letter grade: ")
 credit1 = input("Enter your course 1 credit: ")
-credit = float(credit1)
+credit1 = float(credit1)
 
 if grade1 == ("A"):
-  course1gpa=float(4.0)
-  print (f"Grade point for course 1 is {course1gpa}")
+  course1gp=float(4.0)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("A-"):
-  print (f"Grade point for course 1 is {float(3.67)}")
+  course1gp=float(3.67)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("B+"):
-  print (f"Grade point for course 1 is {float(3.33)}")
+  course1gp=float(3.33)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("B-"):
-  print (f"Grade point for course 1 is {float(2.67)}")
+  course1gp=float(2.67)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("C+"):
-  print (f"Grade point for course 1 is {float(2.330)}")
+  course1gp=float(2.330)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("C"):
-  print (f"Grade point for course 1 is {float(2.0)}")
+  course1gp=float(2.0)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("D"):
-  print (f"Grade point for course 1 is {float(1.0)}")
+  course1gp=float(1.0)
+  print (f"Grade point for course 1 is {course1gp}")
 elif grade1 == ("F"):
-  print (f"Grade point for course 1 is {float(0.0)}")
+  course1gp=float(0.0)
+  print (f"Grade point for course 1 is {course1gp}")
 else:
-  print(f"Grade point for course 1 is {float(0.0)}")
+  course1gp=float(0.0)
+  print(f"Grade point for course 1 is {course1gp}")
 
 
 grade2 = input("Enter your course 2 letter grade: ")
@@ -30,48 +38,67 @@ credit2 = input("Enter your course 2 credit: ")
 credit2 = float(credit2)
 
 if grade2 == ("A"):
-  print (f"Grade point for course 2 is: {float(4.0)}")
+  course2gp = float(4.0)
+  print (f"Grade point for course 2 is: {course2gp}")
 elif grade2 == ("A-"):
-  print (f"Grade point for course 2 is {float(3.67)}")
+  course2gp=float(3.67)
+  print (f"Grade point for course 2 is {course2gp}")
 elif grade2 == ("B+"):
-  print (f"Grade point for course 2 is {float(3.33)}")
+  course2gp=float(3.33)
+  print (f"Grade point for course 2 is {course2gp}")
 elif  grade2 == ("B"):
-  print (f"Grade point for course 2 is {float(3.0)}")
+  course2gp =float(3.0)
+  print (f"Grade point for course 2 is {course2gp}")
 elif grade2 == ("B-"):
-  print (f"Grade point for course 2 is {float(2.67)}")
+  course2gp=float(2.67)
+  print (f"Grade point for course 2 is {course2gp}")
 elif grade2 == ("C+"):
-  print (f"Grade point for course 2 is {float(2.33)}")
+  course2gp =float(2.33)
+  print (f"Grade point for course 2 is {course2gp}")
 elif grade2 == ("C"):
-  print (f"Grade point for course 2 is {float(2.0)}")
+  course2gp=float(2.0)
+  print (f"Grade point for course 2 is {course2gp}")
 elif grade2 == ("D"):
-  print (f"Grade point for course 2 is {float(1.0)}")
+  course2gp=float(1.0)
+  print (f"Grade point for course 2 is {course2gp}")
 elif grade2 == ("F"):
-  print (f"Grade point for course 2 is {float(0.0)}")
+  course2gp=float(0.0)
+  print (f"Grade point for course 2 is {course2gp}")
 else:
-  print(f"Grade point for course 2 is {float(0.0)}")
+  course2gp=float(0.0)
+  print(f"Grade point for course 2 is {course2gp}")
 
 grade3 = input("Enter your course 3 letter grade: ")
 credit3 = input("Enter your course 3 credit: ")
 credit3 = float(credit3)
 
 if grade3 == ("A"):
-  print (f"Grade point for course 3 is: {float(4.0)}")
+  course3gp=float(4.0)
+  print (f"Grade point for course 3 is: {course3gp}")
 elif grade3 == ("A-"):
-  print (f"Grade point for course 3 is {float(3.67)}")
+  course3gp=float(3.67)
+  print (f"Grade point for course 3 is {course3gp}")
 elif grade3 == ("B+"):
-  print (f"Grade point for course 3 is {float(3.0)}")
+  course3gp=float(3.0)
+  print (f"Grade point for course 3 is {course3gp}")
 elif grade3 == ("B-"):
-  print (f"Grade point for course 3 is {float(2.67)}")
+  course3gp=float(2.67)
+  print (f"Grade point for course 3 is {course3gp}")
 elif grade3 == ("C+"):
-  print (f"Grade point for course 3 is {float(2.33)}")
+  course3gp=float(2.33)
+  print (f"Grade point for course 3 is {course3gp}")
 elif grade3 == ("C"):
-  print (f"Grade point for course 3 is {float(2.00)}")
+  course3gp=float(2.00)
+  print (f"Grade point for course 3 is {course3gp}")
 elif grade3 == ("D"):
-  print (f"Grade point for course 3 is {float(1.00)}")
+  course3gp=float(1.00)
+  print (f"Grade point for course 3 is {course3gp}")
 elif grade3 == ("F"):
-  print (f"Grade point for course 3 is {float(0.0)}")
+  course3gp=float(0.0)
+  print (f"Grade point for course 3 is {course3gp}")
 else:
-  print(f"Grade point for course 3 is {float(0.0)}")
+  course3gp=float(0.0)
+  print(f"Grade point for course 3 is {course3gp}")
 
-GPA = ((course1gpa * credit1) + (grade2 * credit2) + (grade3 * credit3)) / ((credit1 + credit2 + credit3)) 
+GPA = ((course1gp * credit1) + (course2gp * credit2) + (course3gp * credit3)) / ((credit1 + credit2 + credit3)) 
 print(f"Your GPA is: {GPA}")
