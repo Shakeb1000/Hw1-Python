@@ -1,5 +1,6 @@
-#  Author: Shakeb Siddiqui sms8508@psu.edu
-# Collaborator:
+# Author: Shakeb Siddiqui sms8508@psu.edu
+# Collaborator: Eric Byjoo ezb5481@psu.edu
+
 grade1 = input("Enter your course 1 letter grade: ")
 credit1 = input("Enter your course 1 credit: ")
 credit1 = float(credit1)
